@@ -9,9 +9,9 @@ int main()
     cin >> n;
 
     cout << "\nASCII values and their corresponding characters are: \n";
-    for(i=1;i<=n;i++)
+    for(i=0;i<=n;i++)
     {
-        c=i;
+        c = (char)i;
         cout << i << " = "<< c << endl;
     }
     return 0;
